@@ -1,0 +1,44 @@
+# ============================================================
+#  CALCULATOR SUITE — BUILD INSTRUCTIONS (Windows)
+# ============================================================
+
+## WHAT YOU NEED (one-time setup)
+1. Python 3.10 or 3.11  →  https://www.python.org/downloads/
+   ✓ Check "Add Python to PATH" during install
+
+2. Open Command Prompt (search "cmd" in Start Menu) and run:
+
+   pip install customtkinter numpy-financial python-dateutil pyinstaller
+
+
+## BUILD THE .EXE (do this once per update)
+
+1. Place both files in the same folder, e.g.  C:\CalculatorSuite\
+      calculator_suite.py
+      calculator_suite.spec
+
+2. Open Command Prompt, navigate to that folder:
+      cd C:\CalculatorSuite
+
+3. Run PyInstaller:
+      pyinstaller calculator_suite.spec
+
+4. Wait ~60 seconds. When done, your .exe is at:
+      C:\CalculatorSuite\dist\CalculatorSuite.exe
+
+5. Double-click  CalculatorSuite.exe  — no Python needed to run it!
+
+
+## NOTES
+- The .exe file will be ~30–50 MB (it bundles Python + all libraries)
+- You can copy CalculatorSuite.exe to any Windows PC and it will run
+- To add a custom icon: save a .ico file and set icon='calculator.ico'
+  in calculator_suite.spec, then rebuild
+
+
+## TROUBLESHOOTING
+- If "pip is not recognized": reinstall Python and check "Add to PATH"
+- If the window flashes and closes: remove  console=False  from the
+  .spec file temporarily to see the error message
+- If antivirus flags it: this is a common false-positive with PyInstaller.
+  Add an exception or use a code-signing certificate.
