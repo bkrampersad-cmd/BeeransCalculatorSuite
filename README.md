@@ -8,7 +8,7 @@ A polished, fully self-contained Windows desktop calculator suite — **50 calcu
 
 ## ✨ Features
 
-- **48 calculators** spanning everyday, professional, and technical use cases
+- **50 calculators** spanning everyday, professional, and technical use cases
 - **Beautiful UI** — clean navy sidebar, white cards, consistent design system throughout
 - **Fully offline** — all calculations run locally; no data ever leaves your machine
 - **Portable** — copy the folder to any Windows machine and run
