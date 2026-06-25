@@ -2,13 +2,13 @@
 
 > *Why juggle a dozen different tools when everything you need can live beautifully in one place?*
 
-A polished, fully self-contained Windows desktop calculator suite — **48 calculators across 8 categories**, built with Python and CustomTkinter. No ads. No subscriptions. No internet required.
+A polished, fully self-contained Windows desktop calculator suite — **50 calculators across 8 categories**, built with Python and CustomTkinter. No ads. No subscriptions. No internet required.
 
 ---
 
 ## ✨ Features
 
-- **48 calculators** spanning everyday, professional, and technical use cases
+- **50 calculators** spanning everyday, professional, and technical use cases
 - **Beautiful UI** — clean navy sidebar, white cards, consistent design system throughout
 - **Fully offline** — all calculations run locally; no data ever leaves your machine
 - **Portable** — copy the folder to any Windows machine and run
@@ -28,7 +28,7 @@ Scientific calculator with DEG/RAD mode, trig/log/power functions, 8-slot memory
 ### 🏗️ Construction (17 calculators)
 | | | |
 |---|---|---|
-| Area | Batten Spacing | Concrete Volume |
+| Master| Area | Batten Spacing | Concrete Volume |
 | Corner Angle | Crown Molding | Decking |
 | Diagonal | Frame Spacing | Lumber |
 | Miter Joint | Overlapping Boards | Parquet Floor |
@@ -70,6 +70,7 @@ Every construction calculator includes a **live diagram** that redraws dynamical
 - IV Drip Rate Calculator
 - Opioid Conversion (MME)
 - Pharmacy Dilution Calculator
+- Creatinine Clearance
 
 > ⚠️ Medical calculators are for reference only. Always verify with a licensed healthcare professional.
 
